@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* GetDeviceImages_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetDeviceImages_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66D917FA3361FA2642408759 /* GetDeviceImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GetDeviceImages.podspec; path = ../GetDeviceImages.podspec; sourceTree = "<group>"; };
+		66D917FA3361FA2642408759 /* GetDeviceImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GetDeviceImages.podspec; path = ../GetDeviceImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		89610F5B3B154D19D5D9E6D0 /* Pods-GetDeviceImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetDeviceImages_Example.release.xcconfig"; path = "Target Support Files/Pods-GetDeviceImages_Example/Pods-GetDeviceImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		961BD970E95D4BD626113EF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D6B0BD6AC9CAC412D20EB5CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		961BD970E95D4BD626113EF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6B0BD6AC9CAC412D20EB5CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DE8E374C4AD040911636D6FA /* Pods_GetDeviceImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetDeviceImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75CF17B4F64B58367A943A1 /* Pods_GetDeviceImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetDeviceImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8F6CF671E27B99F4282284 /* Pods-GetDeviceImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetDeviceImages_Tests.release.xcconfig"; path = "Target Support Files/Pods-GetDeviceImages_Tests/Pods-GetDeviceImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				19C2D997D554CCE01A39093C /* Pods-GetDeviceImages_Tests.debug.xcconfig */,
 				FD8F6CF671E27B99F4282284 /* Pods-GetDeviceImages_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetDeviceImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetDeviceImages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

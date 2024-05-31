@@ -1,0 +1,22 @@
+{
+  "name": "GetDeviceImages",
+  "version": "0.1.0",
+  "summary": "A short description of GetDeviceImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ishpreet singh/GetDeviceImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ishpreet singh": "ishpreetsingh8386@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ishpreet singh/GetDeviceImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GetDeviceImages/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GetDeviceImages (0.1.0)
+
+DEPENDENCIES:
+  - GetDeviceImages (from `../`)
+
+EXTERNAL SOURCES:
+  GetDeviceImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GetDeviceImages: 0f103a027214937dca3a77a896bc6d631e915f1c
+
+PODFILE CHECKSUM: c96d8b883ad4dfc6a525eb7a14a7a5578309238c
+
+COCOAPODS: 1.15.2

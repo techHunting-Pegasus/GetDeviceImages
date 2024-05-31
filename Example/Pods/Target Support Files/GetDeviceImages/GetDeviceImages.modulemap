@@ -1,0 +1,6 @@
+framework module GetDeviceImages {
+  umbrella header "GetDeviceImages-umbrella.h"
+
+  export *
+  module * { export * }
+}
