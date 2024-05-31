@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00BC2E992AD9A208D312D1FE08FA925B /* Pods-GetDeviceImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 353AC95D4EF3997BE489DD13A8FE22BF /* Pods-GetDeviceImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52366CDF2C09B4950000A3CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52366CDE2C09B4950000A3CD /* ReplaceMe.swift */; };
+		52366D1E2C09E0650000A3CD /* Secondclasss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52366D1D2C09E0650000A3CD /* Secondclasss.swift */; };
 		91D078DF25E0B1C6F3736D0D0F97CF2B /* GetDeviceImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958BD24FB6C564CE5F8A9C45A710FB0 /* GetDeviceImages-dummy.m */; };
 		AA1755205CC93FCF1D091A6F037844E6 /* Pods-GetDeviceImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6512D6CFF823226C4B33A7C6909CD5 /* Pods-GetDeviceImages_Example-dummy.m */; };
 		AC8CB58601B33F629B5BF41E781F295D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -48,6 +49,7 @@
 		36323942EB9C57BD7935B1811516FC17 /* GetDeviceImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GetDeviceImages.modulemap; sourceTree = "<group>"; };
 		50FAA35819D745E7BFC8759A2CB1BD08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52366CDE2C09B4950000A3CD /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GetDeviceImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		52366D1D2C09E0650000A3CD /* Secondclasss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secondclasss.swift; path = GetDeviceImages/Classes/Secondclasss.swift; sourceTree = "<group>"; };
 		5958BD24FB6C564CE5F8A9C45A710FB0 /* GetDeviceImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GetDeviceImages-dummy.m"; sourceTree = "<group>"; };
 		5D6512D6CFF823226C4B33A7C6909CD5 /* Pods-GetDeviceImages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetDeviceImages_Example-dummy.m"; sourceTree = "<group>"; };
 		5DB5DE27437396F40D0CCA00AE1C25AE /* Pods-GetDeviceImages_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GetDeviceImages_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				52366CDE2C09B4950000A3CD /* ReplaceMe.swift */,
+				52366D1D2C09E0650000A3CD /* Secondclasss.swift */,
 				ECA9EEC6E966320D8E0F14AD52968DFE /* Pod */,
 				B9CF9091EB6C1507F71104639D0F8F3E /* Support Files */,
 			);
@@ -376,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52366CDF2C09B4950000A3CD /* ReplaceMe.swift in Sources */,
+				52366D1E2C09E0650000A3CD /* Secondclasss.swift in Sources */,
 				91D078DF25E0B1C6F3736D0D0F97CF2B /* GetDeviceImages-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
