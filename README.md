@@ -1,7 +1,7 @@
 # GetDeviceImages
 
 [![Version](https://img.shields.io/cocoapods/v/GetDeviceImages.svg?style=flat)](https://cocoapods.org/pods/GetDeviceImages)
-[![License](https://img.shields.io/cocoapods/l/GetDeviceImages.svg?style=flat)](https://cocoapods.org/pods/GetDeviceImages)
+
 [![Platform](https://img.shields.io/cocoapods/p/GetDeviceImages.svg?style=flat)](https://cocoapods.org/pods/GetDeviceImages)
 
 ## Example

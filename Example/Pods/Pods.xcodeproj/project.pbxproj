@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00BC2E992AD9A208D312D1FE08FA925B /* Pods-GetDeviceImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 353AC95D4EF3997BE489DD13A8FE22BF /* Pods-GetDeviceImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E1087EC91EE050236FE459C9847F512 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92289B91194C9E6A4A1A9E36EF37F01A /* ReplaceMe.swift */; };
+		52366CDF2C09B4950000A3CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52366CDE2C09B4950000A3CD /* ReplaceMe.swift */; };
 		91D078DF25E0B1C6F3736D0D0F97CF2B /* GetDeviceImages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958BD24FB6C564CE5F8A9C45A710FB0 /* GetDeviceImages-dummy.m */; };
 		AA1755205CC93FCF1D091A6F037844E6 /* Pods-GetDeviceImages_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6512D6CFF823226C4B33A7C6909CD5 /* Pods-GetDeviceImages_Example-dummy.m */; };
 		AC8CB58601B33F629B5BF41E781F295D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -47,6 +47,7 @@
 		353AC95D4EF3997BE489DD13A8FE22BF /* Pods-GetDeviceImages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GetDeviceImages_Example-umbrella.h"; sourceTree = "<group>"; };
 		36323942EB9C57BD7935B1811516FC17 /* GetDeviceImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GetDeviceImages.modulemap; sourceTree = "<group>"; };
 		50FAA35819D745E7BFC8759A2CB1BD08 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52366CDE2C09B4950000A3CD /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GetDeviceImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5958BD24FB6C564CE5F8A9C45A710FB0 /* GetDeviceImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GetDeviceImages-dummy.m"; sourceTree = "<group>"; };
 		5D6512D6CFF823226C4B33A7C6909CD5 /* Pods-GetDeviceImages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GetDeviceImages_Example-dummy.m"; sourceTree = "<group>"; };
 		5DB5DE27437396F40D0CCA00AE1C25AE /* Pods-GetDeviceImages_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GetDeviceImages_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75E43FCDC3A401F17DA2D3A923ACCC69 /* GetDeviceImages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GetDeviceImages.release.xcconfig; sourceTree = "<group>"; };
 		894F863B4A5BB27455E01ACD82A7F2E9 /* Pods-GetDeviceImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GetDeviceImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		92289B91194C9E6A4A1A9E36EF37F01A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GetDeviceImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		956DF05F5BBA0FEBE6EB5F4F75624AA1 /* GetDeviceImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GetDeviceImages.debug.xcconfig; sourceTree = "<group>"; };
 		95DFC4C0E82686011BBD06680E36EA47 /* GetDeviceImages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GetDeviceImages-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -162,7 +162,7 @@
 		B28B393B75C59DFA5F3D6E29F0EA22C5 /* GetDeviceImages */ = {
 			isa = PBXGroup;
 			children = (
-				92289B91194C9E6A4A1A9E36EF37F01A /* ReplaceMe.swift */,
+				52366CDE2C09B4950000A3CD /* ReplaceMe.swift */,
 				ECA9EEC6E966320D8E0F14AD52968DFE /* Pod */,
 				B9CF9091EB6C1507F71104639D0F8F3E /* Support Files */,
 			);
@@ -375,8 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52366CDF2C09B4950000A3CD /* ReplaceMe.swift in Sources */,
 				91D078DF25E0B1C6F3736D0D0F97CF2B /* GetDeviceImages-dummy.m in Sources */,
-				3E1087EC91EE050236FE459C9847F512 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

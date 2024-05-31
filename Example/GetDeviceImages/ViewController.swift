@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import GetDeviceImages
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let log = Logger()
+        log.Log(message: "hello ishu")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
